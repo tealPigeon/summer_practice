@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/summer_practice/static/css/main.0c43faca.chunk.css",
+    "main.js": "/summer_practice/static/js/main.a5f89698.chunk.js",
+    "main.js.map": "/summer_practice/static/js/main.a5f89698.chunk.js.map",
+    "runtime-main.js": "/summer_practice/static/js/runtime-main.2f6f0de7.js",
+    "runtime-main.js.map": "/summer_practice/static/js/runtime-main.2f6f0de7.js.map",
+    "static/js/2.a1395db9.chunk.js": "/summer_practice/static/js/2.a1395db9.chunk.js",
+    "static/js/2.a1395db9.chunk.js.map": "/summer_practice/static/js/2.a1395db9.chunk.js.map",
+    "static/js/3.971d5aae.chunk.js": "/summer_practice/static/js/3.971d5aae.chunk.js",
+    "static/js/3.971d5aae.chunk.js.map": "/summer_practice/static/js/3.971d5aae.chunk.js.map",
+    "index.html": "/summer_practice/index.html",
+    "static/css/main.0c43faca.chunk.css.map": "/summer_practice/static/css/main.0c43faca.chunk.css.map",
+    "static/js/2.a1395db9.chunk.js.LICENSE.txt": "/summer_practice/static/js/2.a1395db9.chunk.js.LICENSE.txt",
+    "static/media/Polygon.618459e5.svg": "/summer_practice/static/media/Polygon.618459e5.svg",
+    "static/media/Cards.css": "/summer_practice/static/media/arrow_right.a54d02df.svg",
+    "static/media/dots.a8036713.svg": "/summer_practice/static/media/dots.a8036713.svg",
+    "static/media/image_for_card.890ea2f0.svg": "/summer_practice/static/media/image_for_card.890ea2f0.svg",
+    "static/media/line1.1089bd78.svg": "/summer_practice/static/media/line1.1089bd78.svg",
+    "static/media/line2.4ebea32d.svg": "/summer_practice/static/media/line2.4ebea32d.svg",
+    "static/media/line3.8e78a0cb.svg": "/summer_practice/static/media/line3.8e78a0cb.svg",
+    "static/media/line4.2196896e.svg": "/summer_practice/static/media/line4.2196896e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f6f0de7.js",
+    "static/js/2.a1395db9.chunk.js",
+    "static/css/main.0c43faca.chunk.css",
+    "static/js/main.a5f89698.chunk.js"
+  ]
+}

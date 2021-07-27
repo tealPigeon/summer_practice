@@ -1,0 +1,33 @@
+.line
+{
+    background-color: #8C8C8C;
+    width: 64px;
+    height: 1px;
+    margin-top: 40px;
+}
+
+.title
+{
+    font-size: 40px;
+    color:#FDFDFD;
+    margin-top: 30px;
+
+}
+
+.text
+{
+    color: #C3C3C3;
+    font-size: 16px;
+    margin-top: 9px;
+    max-width: 1050px;
+    font-weight: 500; 
+}
+
+.main_screen_title
+{
+    font-weight: 900;
+    font-size: 72px;
+    margin-top: 115px;
+    line-height:78px;
+    color: #6D6D6D;
+}

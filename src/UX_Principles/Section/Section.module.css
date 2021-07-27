@@ -1,0 +1,25 @@
+.line
+{
+    background-color: #8C8C8C;
+    width: 64px;
+    height: 1px;
+    margin-top: 40px;
+}
+
+
+.title
+{
+    font-size: 48px;
+    color:#000000;
+    margin-top: 17px;
+
+}
+
+.text
+{
+    color: #626262;
+    font-size: 16px;
+    margin-top: 31px;
+    max-width: 1050px;
+    font-weight: 500; 
+}

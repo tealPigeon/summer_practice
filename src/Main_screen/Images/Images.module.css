@@ -1,0 +1,34 @@
+.dots
+{
+    position: absolute;
+    left: 945px;
+    top: 121px;
+}
+
+.line1
+{
+    position: absolute;
+    left: 996px;
+    top: 356px;
+}
+
+.line2
+{
+    position: absolute;
+    left: 901px;
+    top: 441px;
+}
+
+.line3
+{
+    position: absolute;
+    left: 855px;
+    top: 561px;
+}
+
+.line4
+{
+    position: absolute;
+    left: 730px;
+    top: 689px;
+}

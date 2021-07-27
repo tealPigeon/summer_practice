@@ -1,0 +1,52 @@
+.menu
+{
+    margin-top: 11px;
+    margin-right:-40px;
+}
+
+.menu__item {
+  float:left; 
+  margin-right:40px; 
+}
+
+
+.menu__item:hover .sub__menu
+{
+  display: block;
+}
+
+
+.sub__menu
+{
+  position: absolute;
+  box-sizing:border-box;
+  width: 214px;
+  height: 79px;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+  
+}
+
+.sub__menu__item
+{
+  margin-top: 10px;
+  margin-left: 37px; 
+  cursor: pointer;
+}
+
+
+
+ul {
+  list-style: none; 
+  margin: 0; 
+  padding-left: 0; 
+}
+
+.menu__item_ref {
+  text-decoration: none;
+  color: #DFDFDF;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}

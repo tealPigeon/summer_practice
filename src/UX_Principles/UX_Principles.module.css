@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,600,700&subset=cyrillic');
+
+body
+{
+    background-color: #ffffff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;  /* semi-bold; */
+}
+
+.logo
+{
+    color: #626262;
+    font-size: 18px;
+    margin-left: -3px;
+    line-height: 25px;
+}
+
+.wrapper 
+{
+    margin: 30px 114px auto 120px;
+}
+
+.line
+{
+    background-color: #8C8C8C;
+    width: 64px;
+    height: 1px;
+    margin-top: 26px;
+}
+
+ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
+  }
+
+a {
+    text-decoration: none;
+    color: #302E2E;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+.menu__item {
+    float:left; 
+    margin-right:40px; 
+
+  }
+
+  .header__wrapper
+  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  #menu
+  {
+      margin-top: 11px;
+      margin-right:-40px;
+  }
+
+  .sub__menu
+  {
+    position: absolute;
+    box-sizing:border-box;
+    width: 214px;
+    height: 79px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+
+.sub__menu__item
+{
+    margin-top: 10px;
+    margin-left: 37px;
+}
+ 
+#components:hover .sub__menu
+{
+    display: block;
+}
+
+ol
+{
+    margin-left: -25px;
+    margin-top: 7px;
+}
+
+li
+{
+    margin-top: 7px;
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>UDV Дизайн-система</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      <div class="header__wrapper">
+        <div id="logo"><a href="index.html" style="margin-right: 10px; font-weight: 600;">UDV</a> Дизайн-система</div>  
+        <nav id="menu">
+          <ul>
+            <li class="menu__item" id="components">
+              <a href="#" style="color:#00D29D;">Компоненты</a>
+
+              <img style="width: 7px; height: 7px; fill:#00D29D;" src="Polygon 5.svg">
+
+              <div class="sub__menu">
+                <ul>
+                  <li class="sub__menu__item" style="list-style-image: url(components.svg)">
+                    <a href="" style=" font-weight:400; color:#302E2E; font-size: 16px;">Компоненты на React</a>
+                  </li>
+                  <li class="sub__menu__item" style="list-style-image: url(templates.svg)">
+                    <a href="" style="font-weight:400; color:#302E2E; font-size: 16px;">Шаблоны в Figma</a>
+                  </li>
+                </ul>
+              </div>  
+              
+            </li>
+            <li class="menu__item">
+              <a href="#">Паттерны</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" >Принципы UX</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">Исследования</a>
+            </li>
+            <li class="menu__item">
+              <a href="#">Статьи</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+<div class="container">
+      <div class="left_menu">
+        <input type="search" placeholder="Поиск" class="search">
+
+
+        <div class="vertmenu">
+          <ul>
+              <li>
+                  <a class="active menu_title" href="#">Атомы
+                    <img id="atom" src="polygon_left_menu_open.svg" >
+                  </a>
+                  <input type="checkbox" class="subCat" id="1" checked="checked" />
+                  <label class="chka" for="1"></label>
+                  <ul style="display:none">
+                      <li>
+                          <a href="#" class="menu_sub_title">Кнопки</a>
+                          <input type="checkbox" class="subCat" id="1.1" checked="checked"/>
+                          <img class="chka" for="1.1"></label>
+                          <ul >
+                              <li>
+                                  <a class="menu_options" href="#">MainButton</a>
+                              </li>
+                              <li>
+                                  <a class="menu_options" href="#">SecondaryButton</a>
+                              </li>
+                              <li>
+                                  <a class="menu_options" href="#">Link</a>
+                              </li>
+                              <li>
+                                <a class="menu_options" href="#">IconButton</a>
+                            </li>
+                          </ul>
+                      </li>
+                      <li>
+                          <a href="#"  class="menu_sub_title">Поля</a>
+
+                          <input type="checkbox" class="subCat" id="1.1" checked="checked"/>
+                          <ul >
+                              <li>
+                                  <a class="menu_options" href="#">Input</a>
+                              </li>
+                              <li>
+                                  <a class="menu_options" href="#">FileInput</a>
+                              </li>
+                              <li>
+                                  <a class="menu_options" href="#">Select</a>
+                              </li>
+                              <li>
+                                <a class="menu_options" href="#">MultiSelect</a>
+                            </li>
+                            <li>
+                              <a class="menu_options" href="#">DateInput</a>
+                          </li>
+                          </ul>
+
+                      </li>
+                      <li>
+                          <a href="#"  class="menu_sub_title">Поля</a>
+
+                          <input type="checkbox" class="subCat" id="1.1" checked="checked"/>
+                          <ul >
+                            <li>
+                              <a class="menu_options" href="#">Input</a>
+                          </li>
+                          <li>
+                              <a class="menu_options" href="#">FileInput</a>
+                          </li>
+                          <li>
+                              <a class="menu_options" href="#">Select</a>
+                          </li>
+                          <li>
+                            <a class="menu_options" href="#">MultiSelect</a>
+                        </li>
+                        <li>
+                          <a class="menu_options" href="#">DateInput</a>
+                      </li>
+                          </ul>
+
+                      </li>
+                  </ul>
+              </li>   
+            </ul>
+            </div>
+              <div class="vertmenu">
+                <ul>
+              <li>
+                  <a class="active menu_title" href="#">Молекулы
+                    <img src="polygon_left_menu_closed.svg">
+                  </a>
+                  <input type="checkbox" class="subCat" id="2" />
+                  <label class="chka" for="2"></label>
+                  <ul>
+                      <li>
+                          <a  href="#">Пункт меню 2.1</a>
+                      </li>
+                      <li>
+                          <a href="#">Пункт меню 2.2</a>
+                      </li>
+                      <li>
+                          <a href="#">Пункт меню 2.3</a>
+                      </li>
+                      <li>
+                          <a href="#">Пункт меню 2.4</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+
+
+
+      </div>
+    <div class="content">
+      <div class="title">MainButton</div>
+      <div style="display: flex;">
+              <p class="text">import Amount from 'arui-feather/amount';</p>
+      <img src="copy.svg" class="img_copy">
+      </div>
+<div class="sub_title">Компонент</div>
+
+<div class="button">Главная кнопка</div>
+<div class="line"></div>
+<div class="code_title"><span style="color:#00B98A;  text-decoration:underline;">Код</span> <span style="margin-left: 28px;">Свойства и методы</span></div>
+
+<div class="code_block">
+    <pre class="code">
+    <span class="blue">const</span> <span class="purple">AMOUNT</span> ={<br>
+        value <span class="purple">123535</span>,<br>
+        currency: {<br>
+            code: <span class="green">'RUR'</span>,<br>
+            minority: <span class="purple">100</span><br>
+        }
+    };
+    <br>
+    &lt;<span class="purple">div</span>&gt;<br>
+        {<br>
+            [<span class="green">'s'</span>, <span class="green">'m'</span>, <span class="green">'1'</span>, <span class="green">'xl'</span>].<span class="red">map</span>(size =&gt;<br>
+                &lt;<span class="purple">div</span> <span class="green">key</span>={ <span class="purple">size</span> }&gt;<br>
+                    &lt;<span class="red">Amount</span><br>
+                        <span class="green">size</span>={ <span class="purple">size</span> }<br>
+                        <span class="green">amount</span>={ <span class="purple">AMOUNT</span> }<br>
+                    /&gt;<br>
+                &lt;/<span class="purple">div</span>&gt;<br>
+            ))<br>
+        }<br>
+    &lt;/<span class="purple">div</span>&gt;<br>
+    </pre>
+</div>
+    </div>
+</div>
+
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script type="text/javascript" src="./src/slick.min.js"></script>
+      <script src="./script.js"></script>
+
+
+  </body>
+</html>

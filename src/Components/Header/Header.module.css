@@ -1,0 +1,16 @@
+.header__wrapper
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.logo
+{
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: -3px;
+  line-height: 25px;
+}

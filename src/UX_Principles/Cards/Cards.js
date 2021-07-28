@@ -67,7 +67,7 @@ export default class SimpleSlider extends Component {
                             </ol>
                         </div>
                 </div>
-                <div className="slider__item">
+                {/* <div className="slider__item">
                         <div className="card_title">
                             04 Иерархия
                         </div>
@@ -83,7 +83,7 @@ export default class SimpleSlider extends Component {
                         <div className="card_text">
                             Подтверждение ( certification), также называется подтверждающим методом ( certifikating method), является одним из методов верификации программного обеспечения и включает два этапа: сначала программное обеспечение проверяется на соответствие спецификации, а затем оно проходит серию модульных тестов, которые позволяют убедиться в том, что программное обеспечение выполняет заявленные функции.
                         </div>
-                </div>
+                </div> */}
             </Slider>
         );
     }

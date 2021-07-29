@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/summer_practice/static/css/main.4bf1a227.chunk.css",
-    "main.js": "/summer_practice/static/js/main.45c102a0.chunk.js",
-    "main.js.map": "/summer_practice/static/js/main.45c102a0.chunk.js.map",
+    "main.js": "/summer_practice/static/js/main.49bf1d7a.chunk.js",
+    "main.js.map": "/summer_practice/static/js/main.49bf1d7a.chunk.js.map",
     "runtime-main.js": "/summer_practice/static/js/runtime-main.67ad2771.js",
     "runtime-main.js.map": "/summer_practice/static/js/runtime-main.67ad2771.js.map",
     "static/js/2.163a73d6.chunk.js": "/summer_practice/static/js/2.163a73d6.chunk.js",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.67ad2771.js",
     "static/js/2.163a73d6.chunk.js",
     "static/css/main.4bf1a227.chunk.css",
-    "static/js/main.45c102a0.chunk.js"
+    "static/js/main.49bf1d7a.chunk.js"
   ]
 }

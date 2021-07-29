@@ -2,6 +2,8 @@ import React from 'react';
 import classes from "./Navbar.module.css"
 import Polygon from "./Polygon.svg"
 import {NavLink} from "react-router-dom";
+import components from "./components.svg"
+import templates from "./templates.svg"
 
 const Navbar = () =>
 {
@@ -13,10 +15,12 @@ const Navbar = () =>
                   <img style={{width: '7px', height: '7px'}} src={Polygon} />
                   <div className={classes.sub__menu}>
                     <ul>
-                      <li className={classes.sub__menu__item} style={{listStyleImage: 'url("components.svg")' }}>
-                        <NavLink to="/react_components"  style={{fontWeight: 400, color: '#302E2E', fontSize: '16px'}}>Компоненты на React</NavLink>
+                    <li className={classes.sub__menu__item}>
+                      <img src={components} style={{marginLeft:'5px'}}  />
+                        <NavLink to="/react_components" style={{fontWeight: 400, color: '#302E2E', fontSize: '16px'}}>Компоненты на React</NavLink>
                       </li>
-                      <li className={classes.sub__menu__item} style={{listStyleImage: 'url(./templates.svg)'}}>
+                      <li className={classes.sub__menu__item} >
+                      <img src={templates} style={{marginLeft:'10px', marginRight:'7px'}} />
                         <NavLink to="/templates_in_figma" style={{fontWeight: 400, color: '#302E2E', fontSize: '16px'}}>Шаблоны в Figma</NavLink>
                       </li>
                     </ul>
